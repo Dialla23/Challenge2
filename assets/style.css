@@ -2,19 +2,28 @@
     display: flex;
     padding: 7px;
 }
+.container{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    max-width: 90%;
 
+}
 
 article{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
     font-size: 250%;
     border-radius: 5px;
     margin: 3px;
     align-items: center;
     padding: 10px;
-    padding-left: 25%;
     border-top: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10%;
 }
 section .infos{
    padding-left: 65%;
@@ -38,6 +47,10 @@ section.overviews{
         }
         .flex{
             display: flex;
+        }
+        .col1, .col2, .col3{
+            flex-wrap: nowrap;
+            width: 39%;
         }
 aside.pics{
   padding: 10px;
