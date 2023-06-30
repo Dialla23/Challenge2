@@ -1,3 +1,9 @@
+.Header{
+    display: flex;
+    padding: 7px;
+}
+
+
 article{
     display: flex;
     justify-content: space-between;
@@ -10,25 +16,32 @@ article{
     padding-left: 25%;
     border-top: 1px solid black;
 }
+section .infos{
+   padding-left: 65%;
+   font size:35px;
 
-body div.id{
+}
+
+section.overviews{
     padding: 7px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-
-}
-section{
-font-style: inherit;
-font-size: 250%;
-padding:7px;
-margin: auto;
-}
+    flex-direction: column;} 
+    
+    section{
+        font-style: inherit;
+        font-size: 250%;
+        padding:7px;
+        margin: auto;
+        background-color: beige;
+        }
+        .flex{
+            display: flex;
+        }
 aside.pics{
-   display: flex;
-   align-items: center;
-   padding: 25px;
+  padding: 10px;
+   
    position: relative;
 
 }
@@ -40,6 +53,7 @@ aside.pics{
     border-top: 1px solid black;
     font-size: 400%;
     background-attachment: fixed;
+    background-color: beige;
 }
   
 .footer-icon svg {
