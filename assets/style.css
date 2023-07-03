@@ -81,14 +81,9 @@ section.overviews{
     }
     
     section{
-        font-style: inherit;
-        font-size: 250%;
         padding:7px;
         margin: auto;
         background-color: beige;
-        }
-        .flex{
-            display: flex;
         }
         .col1, .col2, .col3{
             flex-wrap: nowrap;
