@@ -1,11 +1,21 @@
 .Header{
     display: flex;
-    padding: 7px;
+    padding: 30px;
 }
-nav{
+.item{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    padding: 2%;
+}
+nav .main-nav{
+    display: flex;
+   align-content: center;
+   width: 400px;
+   justify-content: space-between;
+    
+}
+nav .main-nav li a{
+    font-size: 50px;
 }
 .container{
     width: 100%;
@@ -16,6 +26,23 @@ nav{
 }
 li{
     list-style: none;
+}
+#title-overviews{
+    margin-bottom: 30px;
+    
+}
+.sm-card{
+    height: 400px;
+width: 600px;
+border-radius: 10px;
+object-fit: cover;
+
+}
+.sm-card-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 30px 0;  
 }
 
 article{
@@ -37,6 +64,10 @@ article{
    font-size: 35px;
 
 }
+.work-title{
+    margin: 3%;
+    text-align: center;
+}
 
 section.overviews{
     padding: 7px;
@@ -44,6 +75,10 @@ section.overviews{
     display: flex;
     justify-content: space-between;
     flex-direction: column;} 
+    .overviews p{
+        align-content: center;
+        margin-top: 5%;
+    }
     
     section{
         font-style: inherit;
