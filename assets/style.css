@@ -32,8 +32,8 @@ li{
     
 }
 .sm-card{
-    height: 400px;
-width: 600px;
+    height: 300px;
+width: 400px;
 border-radius: 10px;
 object-fit: cover;
 margin-top: 30px;
